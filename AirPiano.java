@@ -14,7 +14,11 @@ public class AirPiano {
 	private static final int NOTELEFT = 3;// must be the same in tinyos code
 	
 	public static void main(String args[]) throws MidiUnavailableException,IOException {
+<<<<<<< HEAD
     	String source = null;
+=======
+    	String source = null;
+>>>>>>> 20425215ddfb5549824c9ef103e3232e8fc06859
 		int notedirection=0;
 		String note = null;
 		int noteid=255;
@@ -120,7 +124,11 @@ class NoteReader implements Runnable{
 }
 
 class NoteBuffer{
+<<<<<<< HEAD
 	int noteid;
+=======
+	int noteid;
+>>>>>>> 20425215ddfb5549824c9ef103e3232e8fc06859
 	int note;//String note;
 	
 	public int getNote(){
